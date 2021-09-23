@@ -19,9 +19,14 @@ for(int X = 0; X < 7; X++){
  for(int Y = 0; Y < 7; Y++){
    fill(randomR+X*10+Y*10,randomG+X*10+Y*10,randomB+X*10+Y*10);
    rect(100+X*random(107,110),100+Y*random(107,110),100,100);
-   
+     
+   }
+  }
  }
-}
-
-
+ 
+ void mouseReleased(){
+   randomR = random(0,200); 
+      randomG = random(0,200);
+      randomB = random(0,200);
+ 
 }
