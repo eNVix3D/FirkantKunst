@@ -1,3 +1,5 @@
+//Nicklas 2i | Firkantkunst | 23.09.2021
+
 float randomR = random(0,200); 
 float randomG = random(0,200);
 float randomB = random(0,200);
